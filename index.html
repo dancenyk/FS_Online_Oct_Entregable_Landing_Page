@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" src="style.css">
     <title>Planet Skin</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <header>
@@ -13,14 +15,14 @@
               <img src="./images/Logo.png" >
             </a>
             <ul class="navList">
-                <li>Cuidado Facial </li>
-                <li>Tipo de piel</li>
-                <li>Te preocupa</li>
-                <li>Cuidados corporales</li>
-                <li>Maquillaje</li>
-                <li>Outlet yy promociones</li>
-                <li>Novedades</li>
-                <li>Marcas</li>
+                <li>Cuidado Facial </li><i class="fa-solid fa-chevron-down"></i>
+                <li>Tipo de piel</li><i class="fa-solid fa-chevron-down"></i>
+                <li>Te preocupa</li><i class="fa-solid fa-chevron-down"></i>
+                <li>Cuidados corporales</li><i class="fa-solid fa-chevron-down"></i>
+                <li>Maquillaje</li><i class="fa-solid fa-chevron-down"></i>
+                <li>Outlet y promociones</li><i class="fa-solid fa-chevron-down"></i>
+                <li>Novedades</li><i class="fa-solid fa-chevron-down"></i>
+                <li>Marcas</li><i class="fa-solid fa-chevron-down"></i>
             </ul>
             <div id="menuIcons">
                 <i class="fa-solid fa-user"></i>
@@ -31,16 +33,15 @@
     </header>
     <main>
         <section id="bannerPrincipal">
-            <img src="./images/planet.jpg" alt="">
             <h4>Dos imprescindibles para el buen tiempo</h4>
             <h2>¡NUESTROS TOP VENTAS!</h2>
-            <button id="losQuiero">LOS QUIERO</button>
+            <button class="botones" id="losQuiero">LOS QUIERO</button>
         </section>
     </main>
 
     <footer>
-        <button><i class="fa-solid fa-gift"></i> Planet Skin Club</button>
-        <button><i class="fa-solid fa-comment-dots"></i></button>
+        <button class="botones" id="Club"><i class="fa-solid fa-gift"></i> Planet Skin Club</button>
+        <button class="botones" id="sms"><i class="fa-solid fa-comment-dots"></i></button>
     </footer>
     <script src="https://kit.fontawesome.com/c473a5ef80.js" crossorigin="anonymous"></script>
 </body>
