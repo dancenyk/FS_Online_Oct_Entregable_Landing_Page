@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 
 /* reset CSS */
 html, body, div, span, applet, object, iframe,
@@ -137,9 +140,10 @@ table {
 .flotantes{
     display: flex;
     justify-content: space-between;
-    padding: 10px;
-    gap: 1230px;
     position: fixed;
+    width: 100%;
+    bottom: 10px;
+    padding: 0 20px;
 }
 
 #sms{
